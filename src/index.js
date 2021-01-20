@@ -26,9 +26,9 @@ function renderBreed(breed) {
   const li = document.createElement('li')
   breed.forEach(br => {
     const li = document.createElement('li')
-    
+    li.innerHTML = breed.message
   })
-  li.innerHTML = breed
+  
   contain.appendChild(li)
   console.log(breed)
 }
