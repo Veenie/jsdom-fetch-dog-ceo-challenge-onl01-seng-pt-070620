@@ -18,12 +18,12 @@ function fetchBreed() {
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   return fetch(breedUrl)
   .then(resp => resp.json())
-  .then(json => renderBreed(json.message));
+  .then(json => renderBreed(json));
 }
 
 function renderBreed(breed) {
   const contain = document.getElementById('dog-breeds');
-  contain.innerHTML = breed.name
+  contain.innerHTML = breed.message
   console.log(breed)
 }
 
