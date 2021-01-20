@@ -15,6 +15,8 @@ function renderImg(images) {
 }
 
 function fetchBreed() {
+  const breedUrl = 'https://dog.ceo/api/breeds/list/all'
+  return fetch(breedUrl)
   
 }
 
