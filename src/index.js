@@ -15,9 +15,10 @@ function renderImg(images) {
   images.message.forEach(element => 
   
   const newImage = document.createElement('img');
+  newImage.src = element
   console.log(newImage)
-  //newImage.innerHTML = `<img src="${img}">`
-  //contain.appendChild(newImage);
+  //newImage.innerHTML = `<img src="${element}">`
+  contain.appendChild(newImage);
  console.log(element)
 )}
 
