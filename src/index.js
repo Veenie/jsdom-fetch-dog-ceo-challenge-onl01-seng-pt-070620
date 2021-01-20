@@ -11,7 +11,7 @@ function renderImg(images) {
   
   console.log("images", images)
   
-  const contain = document.querySelector('dog-image-container');
+  const contain = document.getElementById('dog-image-container');
   console.log(contain)
   const newImage = document.createElement('img');
   images.message.forEach(element => 
