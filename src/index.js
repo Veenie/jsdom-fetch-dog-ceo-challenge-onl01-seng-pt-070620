@@ -20,7 +20,7 @@ function renderImg(images) {
   //contain.appendChild(newImage);
   
 //}
-)};
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
