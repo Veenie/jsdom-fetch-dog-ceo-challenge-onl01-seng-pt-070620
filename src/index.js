@@ -25,6 +25,7 @@ function renderBreed(breed) {
   const contain = document.getElementById('dog-breeds');
   const li = document.createElement('img')
   li.innerHTML = breed
+  
   console.log(breed)
 }
 
