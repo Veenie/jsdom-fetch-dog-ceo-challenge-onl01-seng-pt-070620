@@ -8,18 +8,11 @@ return fetch(imgUrl)
 }
 
 function renderImg(images) {
-  
-  console.log("images", images)
-  
   const contain = document.getElementById('dog-image-container');
-  console.log(contain)
   const newImage = document.createElement('img');
   images.message.forEach(element => 
-  
-  
   newImage.src = element)
   contain.appendChild(newImage);
- console.log(element)
 }
 
 
