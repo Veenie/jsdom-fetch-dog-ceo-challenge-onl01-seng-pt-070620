@@ -10,8 +10,7 @@ return fetch(imgUrl)
 function renderImg(images) {
   const contain = document.getElementById('dog-image-container');
   const newImage = document.createElement('img');
-  images.message.forEach(element => 
-  newImage.src = element)
+  images.message.forEach(element => newImage.src = element);
   contain.appendChild(newImage);
 }
 
