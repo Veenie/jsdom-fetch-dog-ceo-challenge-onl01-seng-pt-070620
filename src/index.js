@@ -12,12 +12,14 @@ function renderImg(images) {
   console.log("images", images)
   
   const contain = document.querySelector('dog-image-container')
-  images.message.forEach(img =>{
-  let newImage = document.createElement('img');
-  newImage.innerHTML = `<img src="${img}">`
-  contain.appendChild(newImage);
+  images.message.forEach(img 
+  //=>{
+  //let newImage = document.createElement('img');
+  //newImage.innerHTML = `<img src="${img}">`
+  //contain.appendChild(newImage);
   
-})}
+//}
+console.log(img))}
 
 
 document.addEventListener('DOMContentLoaded', function() {
