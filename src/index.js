@@ -18,7 +18,6 @@ function renderImg(images) {
   
   
   newImage.src = element)
-  //newImage.innerHTML = `<img src="${element}">`
   contain.appendChild(newImage);
  console.log(element)
 }
