@@ -27,5 +27,5 @@ function renderBreed(breed) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  fetchImg()
+  fetchImg(); fetchBreed();
 })
