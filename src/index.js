@@ -12,9 +12,10 @@ function renderImg(images) {
   console.log("images", images)
   
   const contain = document.querySelector('dog-image-container');
+  
   images.message.forEach(element => 
   
-  const newImage = document.createElement('img');
+  
   newImage.src = element
   console.log(newImage)
   //newImage.innerHTML = `<img src="${element}">`
