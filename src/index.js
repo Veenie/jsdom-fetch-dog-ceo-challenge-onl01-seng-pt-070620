@@ -14,7 +14,9 @@ function renderImg(images) {
   contain.appendChild(newImage);
 }
 
-
+function fetchBreed() {
+  
+}
 
 document.addEventListener('DOMContentLoaded', function() {
   fetchImg()
