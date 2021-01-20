@@ -22,7 +22,8 @@ function fetchBreed() {
 }
 
 function renderBreed(breed) {
-  const contain = document.getElementById('dog-image-container');
+  const contain = document.getElementById('dog-breeds');
+  
 }
 
 document.addEventListener('DOMContentLoaded', function() {
