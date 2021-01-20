@@ -23,7 +23,7 @@ function fetchBreed() {
 
 function renderBreed(breed) {
   const contain = document.getElementById('dog-breeds');
-  const li = document.createElement('img')
+  const li = document.createElement('li')
   li.innerHTML = breed
   contain.appendChild(li)
   console.log(breed)
