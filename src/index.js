@@ -24,11 +24,11 @@ function fetchBreed() {
 function renderBreed(breed) {
   console.log(breed.message)
   const contain = document.getElementById('dog-breeds');
-  breed.message.forEach(br => {
-    const li = document.createElement('li')
-    li.innerHTML = br
-    contain.appendChild(li)
-  })
+  // breed.message.forEach(br => {
+  //   const li = document.createElement('li')
+  //   li.innerHTML = br
+  //   contain.appendChild(li)
+  // })
 }
 
 document.addEventListener('DOMContentLoaded', function() {
