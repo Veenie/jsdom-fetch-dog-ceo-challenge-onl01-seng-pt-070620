@@ -24,7 +24,11 @@ function fetchBreed() {
 function renderBreed(breed) {
   const contain = document.getElementById('dog-breeds');
   const keys = Object.keys(breed.message)
-  keys.forEach(r => contain.innerHTML = r)
+  keys.forEach(r => {
+  const li = document.createElement('li')
+  li.innerHTML = r
+  contain.appendChild(li)
+  })
   //contain.innerHTML = breed
 }
 
