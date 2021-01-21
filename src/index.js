@@ -18,7 +18,7 @@ function fetchBreed() {
   const breedUrl = 'https://dog.ceo/api/breeds/list/all'
   return fetch(breedUrl)
   .then(resp => resp.json())
-  .then(json => renderBreed(json));
+  .then(breed => renderBreed(breed));
 }
 
 function renderBreed(breed) {
