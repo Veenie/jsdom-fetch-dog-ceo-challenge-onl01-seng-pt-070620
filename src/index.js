@@ -23,7 +23,7 @@ function fetchBreed() {
 
 function renderBreed(breed) {
   const contain = document.getElementById('dog-breeds');
-  breed.
+  breed.forEach
   contain.innerHTML = breed
   console.log(breed)
 }
